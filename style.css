@@ -23,6 +23,7 @@ body{
 }
 
 .container_geral{
+    display: block;
     max-width: 360px;
     margin: 0 auto;
     background: #F8FAFC;
@@ -56,7 +57,7 @@ body{
     text-decoration: none;
     color:#7C3AED;
     font-weight: bolder;
-    margin-right: 28px;
+    transform: translate(-23%, 10%);
 }
 
 input#email, input#senha{
