@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #f8fafc;
+}
+
+.vertigo-logo{
+    display: flex;
+    gap: 3px;
+    padding-top: 15px;
+    padding-bottom: 70px;
+    font-weight: bolder;
+}
+
+.container_geral{
+    max-width: 360px;
+    margin: 0 auto;
+    background: #F8FAFC;
+}
+.vertigo-titles h1{
+    font-size: 1.8em;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+.vertigo-titles p{
+    color: #5D697B;
+    font-size: 1em;
+}
+
+.vertigo-titles{
+    padding: 25px 0px;
+}
+
+.vertigo-nomes{
+    font-weight: bolder;
+}
+
+.esqueceusenha{
+    display: flex;
+    justify-content: right;
+    padding: 1px 0px;
+}
+
+.vertigo-esqueceusenha{
+    text-decoration: none;
+    color:#7C3AED;
+    font-weight: bolder;
+    margin-right: 28px;
+}
+
+input#email, input#senha{
+    padding: 10px;
+    width: 85vw;
+    border: 2px solid #e2e8f0;
+}
+i#icon{
+    color:#94a3b8;
+    position: absolute;
+    transform: translate(-140%, 75%);
+}
+.vertigo-login{
+    display: flex;
+    padding: 20px 0px;
+}
+
+input#entrar{
+    width: 85vw;
+    padding: 12px 0px;
+    color: white;
+    font-weight: bold;
+    background: #7C3AED;
+    border: none;
+    border-radius: 5px;
+}
+
+a#inscreva-se{
+    color: #7C3AED;
+    text-decoration: none;
+    font-weight: bolder;
+}
