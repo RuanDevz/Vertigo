@@ -96,7 +96,7 @@ input#senha:focus{
 i#icon{
     color:#94a3b8;
     position: absolute;
-    transform: translate(-140%, 75%);
+    transform: translate(1500%, -186%);
 }
 .vertigo-login{
     display: flex;

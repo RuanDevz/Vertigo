@@ -20,27 +20,26 @@ function trocaricon() {
 }
 
 entrar.addEventListener('click', function(event) {
-  event.preventDefault(); // Impede que o formulário seja enviado
+  event.preventDefault();
 
   // Valida o e-mail
   if (!emailInput.value || !/\S+@\S+\.\S+/.test(emailInput.value)) {
-    emailInput.style.border = '1px solid #ff0000'
-    msgerroemail.textContent = 'Por favor, informe um endereço de e-mail válido.';
+    emailInput.style.border = '1px solid #ff0000';
+    document.getElementById('msgerroemail').textContent = 'Por favor, informe um endereço de e-mail válido.';
     return;
-    
-  }
+} else {
+    emailInput.style.border = '2px solid #e2e8f0';
+    document.getElementById('msgerroemail').textContent = '';
+}
 
   // Valida a senha
   if (!passwordInput.value) {
     passwordInput.style.border = '1px solid #ff0000'
     msgerrosenha.textContent = 'Por favor, informe a senha.';
     return;
+  } else {
+    passwordInput.style.border = '2px solid #e2e8f0'
+    msgerrosenha.textContent = '';
   }
-
-  // Aqui você pode continuar com o código para submeter o formulário
-  // ...
-
-  // Limpa a mensagem de erro (caso haja alguma)
-  msgerro.textContent = '';
 });
 
