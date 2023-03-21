@@ -22,16 +22,18 @@
                 <h1>Acesse a plataforma</h1>
                 <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
             </header>
-            <form method="get" autocomplete="false">
+            <form method="get" autocapitalize="off">
                 <div class="vertigo-nomes">E-mail</div>
                 <label for="email"></label>
-                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" maxlength="40" min="10">
+                <p id="msgerroemail"></p>
                 <div class="esqueceusenha">
                     <a class="vertigo-esqueceusenha" href="">Esqueceu a senha?</a>
                 </div>
                 <div class="vertigo-nomes">Senha</div>
                 <label for="senha"></label>
-                <input type="password" name="senha" id="senha" placeholder="Digite sua senha" >
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha" minlength="8" maxlength="25">
+                <p id="msgerrosenha"></p>
                 <span><i id="icon" class="fa-solid fa-eye-low-vision"></i></span>
                 <div class="vertigo-login">
                     <input type="submit" value="Entrar" id="entrar">

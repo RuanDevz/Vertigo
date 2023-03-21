@@ -65,6 +65,34 @@ input#email, input#senha{
     width: 85vw;
     border: 2px solid #e2e8f0;
 }
+
+p#msgerrosenha{
+    color: #ff0000;
+    text-indent: 3px;
+}
+
+p#msgerroemail{
+    color: #ff0000;
+}
+
+input#email:hover{
+    border: 2px solid #9C6BF1;
+    transition: border 0.3s;
+}
+
+input#email:focus{
+    outline: none;
+}
+
+input#senha:hover{
+    border: 2px solid #9C6BF1;
+    transition: border 0.3s;
+}
+
+input#senha:focus{
+    outline: 0;
+}
+
 i#icon{
     color:#94a3b8;
     position: absolute;
