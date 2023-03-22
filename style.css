@@ -60,6 +60,10 @@ body{
     transform: translate(-23%, 10%);
 }
 
+.vertigo-esqueceusenha:hover{
+    text-decoration: underline;
+}
+
 input#email, input#senha{
     padding: 10px;
     width: 350px;
@@ -114,8 +118,42 @@ input#entrar{
     border-radius: 5px;
 }
 
+input#entrar:hover{
+    background: #9F67FF;
+}
+
 a#inscreva-se{
     color: #7C3AED;
     text-decoration: none;
     font-weight: bolder;
 }
+
+a#inscreva-se:hover{
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+.first{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    width: 50vw;
+}
+
+.segund{
+    width: 50vw;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+
+.vertigo-esqueceusenha{
+    position: absolute;
+    transform: translate(-233%,10%);
+}
+
+.vertigo-nomes{
+    padding: 15px 0px;
+}
+  }
+  
