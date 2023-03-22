@@ -132,10 +132,21 @@ a#inscreva-se:hover{
     text-decoration: underline;
 }
 
+.segund img{
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
+body{
+    overflow-x: hidden;
+}
+
+.container_geral{
+    width: 50vw;
+}
 .first{
     position: absolute;
-    top: 10%;
+    top: 3%;
     left: 7%;
     width: 50vw;
 }
@@ -145,6 +156,11 @@ a#inscreva-se:hover{
     position: absolute;
     top: 0%;
     left: 50%;
+}
+
+.segund img{
+    display: block;
+    width: 50vw;
 }
 
 .vertigo-esqueceusenha{
