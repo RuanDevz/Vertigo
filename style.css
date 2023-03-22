@@ -62,7 +62,7 @@ body{
 
 input#email, input#senha{
     padding: 10px;
-    width: 85vw;
+    width: 350px;
     border: 2px solid #e2e8f0;
 }
 
@@ -96,7 +96,8 @@ input#senha:focus{
 i#icon{
     color:#94a3b8;
     position: absolute;
-    transform: translate(1500%, -186%);
+    transform: translate(-156%, 81%);
+    margin: 0;
 }
 .vertigo-login{
     display: flex;
@@ -104,7 +105,7 @@ i#icon{
 }
 
 input#entrar{
-    width: 85vw;
+    width: 350px;
     padding: 12px 0px;
     color: white;
     font-weight: bold;
