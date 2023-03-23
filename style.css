@@ -105,7 +105,7 @@ i#icon{
     color:#94a3b8;
     position: absolute;
     transform: translate(-156%, 81%);
-    margin: 0;
+    cursor: pointer;
 }
 .vertigo-login{
     display: flex;
@@ -140,7 +140,7 @@ a#inscreva-se:hover{
     display: none;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 948px) {
 body{
     overflow-x: hidden;
     overflow-y: hidden;
@@ -180,9 +180,13 @@ body{
 .vertigo-nomes{
     padding: 15px 0px;
 }
+.segund img{
+    width: 50vw;
+    height: 100vh;
+}
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1281px) {
     .first{
         position: absolute;
         top: 50%;

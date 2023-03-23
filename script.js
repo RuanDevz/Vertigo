@@ -41,5 +41,15 @@ entrar.addEventListener('click', function(event) {
     passwordInput.style.border = '2px solid #e2e8f0'
     msgerrosenha.textContent = '';
   }
+
+  if (passwordInput.value.length < 8) {
+    passwordInput.style.border = '1px solid #ff0000';
+    msgerrosenha.textContent = 'Senha incorreta.';
+  } else {
+    passwordInput.style.border = '';
+    msgerrosenha.textContent = '';
+  }
+  
+  
 });
 
