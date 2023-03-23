@@ -28,6 +28,10 @@ body{
     margin: 0 auto;
     background: #F8FAFC;
 }
+
+form{
+    max-width: 360px;
+}
 .vertigo-titles h1{
     font-size: 1.8em;
     padding-bottom: 10px;
@@ -57,7 +61,7 @@ body{
     text-decoration: none;
     color:#7C3AED;
     font-weight: bolder;
-    transform: translate(-23%, 10%);
+    margin-right: 13px;
 }
 
 .vertigo-esqueceusenha:hover{
@@ -136,9 +140,14 @@ a#inscreva-se:hover{
     display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px) {
 body{
     overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.vertigo-titles{
+    max-width: 360px;
 }
 
 .container_geral{
@@ -153,6 +162,7 @@ body{
 
 .segund{
     width: 50vw;
+    height: 100vw;
     position: absolute;
     top: 0%;
     left: 50%;
@@ -164,12 +174,65 @@ body{
 }
 
 .vertigo-esqueceusenha{
-    position: absolute;
-    transform: translate(-233%,10%);
+
 }
 
 .vertigo-nomes{
     padding: 15px 0px;
 }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .first{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-74%, -58%);
+    }
+
+    i#icon{
+        position: absolute;
+        transform: translate(-179%, 151%);
+    }
+
+    .vertigo-logo{
+        font-size: 2em;
+        letter-spacing: 5px;
+    }
+
+    .vertigo-logo img{
+        width: 60px;
+    }
+
+    .vertigo-titles{
+        max-width: 460px;
+        font-size: 1.5em;
+        
+    }
+
+    .vertigo-nomes{
+        font-size: 1.4em;
+    }
+
+    input{
+        font-size: 1.1em;
+    }
+
+    input#email{
+        padding: 18px;
+    }
+
+    input#senha{
+        padding: 18px;
+    }
+
+    input#entrar{
+        margin-top: 20px;
+        padding: 16px 0px;
+    }
+
+    .acess{
+        font-size: 1.2em;
+    }
   }
   
